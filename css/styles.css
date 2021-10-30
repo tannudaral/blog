@@ -68,6 +68,19 @@ nav .logo{
     cursor: pointer;
 }
 
+.nav--name{
+    font-size: 1.9rem;
+    padding: 0% 0 0 10%;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.blog--heading{
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
 @media (max-width: 800px)
 {
     nav .mainMenu{
@@ -105,6 +118,14 @@ nav .logo{
     .icons i {
         display: inline-block;
         padding: 12px;
+    }
+
+    .nav--name{
+        font-size: 1.9rem;
+        padding: 60% 0 0 10%;
+        font-weight: 100;
+        font-style: italic;
+        opacity: 0.8;
     }
 }
 
